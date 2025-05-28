@@ -34,7 +34,7 @@ column_names = [
     "gün2", "saat2", "derslik2", "vizetarihi", "saat.1",
     "finaltarihi", "saat.2", "butunlemetarihi", "saat.3"
 ]
-df = pd.read_excel('C:/Users/Anis2/Desktop/UL-YA/forupload/ders_bilgi.xlsx', names=column_names, header=1)
+df = pd.read_excel('ders_bilgi.xlsx', names=column_names, header=1)
 
 
 
